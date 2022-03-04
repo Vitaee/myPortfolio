@@ -1,2 +1,2 @@
 # ecc006
-lecture notes
+lecture notes and slides
