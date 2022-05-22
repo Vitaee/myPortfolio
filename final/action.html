@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="utf-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <meta name="viewport" content="initial-scale=1, maximum-scale=1">
+      <!-- site metas -->
+      <!-- Primary Meta Tags -->
+      <title>Action- Covid 19 Awareness Website</title>
+      <meta name="title" content="Covid 19 Awareness Website">
+      <meta name="description" content="This website was developed by Can İlgu as the final  project submission for ECC006 - Web Design and Programming">
+
+
+      <link rel="shortcut icon" type="image/gif" href="images/corona_icon.png">
+      <link rel="stylesheet" type="text/css" href="main.css">
+   </head>
+   <body>
+
+      <div class="topnav" id="myTopnav">
+        <a href="index.html" class="active"><img src="images/corona_icon.png" alt="logo" height="35"></a>
+        <a href="about.html">About</a>
+        <a href="action.html">Take Action</a>
+        <a href="news.html">News</a>
+        <a href="doctors.html">Doctors</a>
+        <a href="contact.html">Contact</a>
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+          <span>🏷</span>
+        </a>
+      </div>
+      
+      <div id="myths"> <!-- myths -->
+         <br>
+      <h2 style="text-align: center;">TAKE ACTION</h2>
+      <p style="padding:20px;">To prevent the spread of COVID-19: Clean your hands often. Use soap and water, or an alcohol-based hand rub, Maintain a safe distance from anyone who is coughing or sneezing, Wear a mask when physical distancing is not possible, Don’t touch your eyes, nose or mouth, Cover your nose and mouth with your bent elbow or a tissue when you cough or sneeze, Stay home if you feel unwell, If you have a fever, cough and difficulty breathing, seek medical attention.</p>
+      <div class="row"> <!-- row -->
+          <div class="card column"> <!-- card 1 -->
+               <img src="images/totalcases.png" alt="total covid cases in cyprus">
+               <div class="card-body">
+                  <h3>Total Cases</h3>
+            </div>
+          </div> <!-- card 1 -->
+
+           <div class="card column"> <!-- card 2 -->
+              <img src="images/cases.png" alt="total covid cases today in cyprus">
+              <div class="card-body">
+              <h3>Positive Cases Last <br><span>30 Day</span></h3>
+           </div>
+           </div> <!-- card 2 -->
+
+           <div class="card column"> <!-- card 2 -->
+            <img src="images/deaths.png" alt="total covid deaths cyprus">
+            <div class="card-body">
+            <h3>Deaths</h3>
+           </div>
+           </div> <!-- card 3 -->
+
+
+      </div> <!-- row -->
+   </div> <!-- myths -->
+
+
+      <br>
+
+      <footer>
+         <hr>
+         <p>Made with ❤️</p>
+      </footer>
+
+      <script>
+         function myFunction() {
+           var x = document.getElementById("myTopnav");
+           if (x.className === "topnav") {
+             x.className += " responsive";
+           } else {
+             x.className = "topnav";
+           }
+         }
+      </script>
+
+   </body>
+   
+</html>

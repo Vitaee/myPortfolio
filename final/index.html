@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="utf-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <!-- site metas -->
+      <!-- Primary Meta Tags -->
+      <title>Home - Covid 19 Awareness Website</title>
+      <meta name="title" content="Covid 19 Awareness Website">
+      <meta name="description" content="This website was developed by Can İlgu as the final  project submission for ECC006 - Web Design and Programming">
+
+
+      <link rel="shortcut icon" type="image/gif" href="images/corona_icon.png">
+      <link rel="stylesheet" type="text/css" href="main.css">
+   </head>
+
+
+   <body>
+
+    <div class="topnav" id="myTopnav">
+        <a href="index.html" class="active"><img src="images/corona_icon.png" alt="logo" height="35"></a>
+        <a href="about.html">About</a>
+        <a href="action.html">Take Action</a>
+        <a href="news.html">News</a>
+        <a href="doctors.html">Doctors</a>
+        <a href="contact.html">Contact</a>
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+        </a>
+      </div>
+
+      <div id="home" class="hero"> <!-- hero -->
+         <div class="hero-text">
+            <h1>Learn About <br> Corona Virus</h1>
+            <a href="about.html">About</a>
+            <a>Read More</a>
+         </div>
+      </div> <!-- hero -->
+
+
+   <div id="about"> <!-- about -->
+      <div class="card row"> <!-- row -->
+          <div class="column"> <!-- card 1 -->
+               <h2>ABOUT CORONA VIRUS</h2>
+              <p>Coronavirus disease (COVID-19) is an infectious disease caused by a newly discovered coronavirus. Most people infected with the COVID-19 virus will experience mild to moderate respiratory illness and recover without requiring special treatment. Older people, and those with underlying medical problems like cardiovascular disease, diabetes, chronic respiratory disease, and cancer are more likely to develop serious illness.</p>
+              <a href="about.html">READ MORE</a>
+          </div> <!-- card 1 -->
+
+           <div class="column"> <!-- card 2 -->
+            <img src="images/about.png" height="400" width="400" alt="ABOUT CORONA VIRUS">
+           </div> <!-- card 2 -->
+
+
+      </div> <!-- row -->
+   </div> <!-- about -->
+
+   <div id="symptoms"> <!-- symptoms -->
+      <div class="card row"> <!-- row -->
+          <div class="column"> <!-- card 1 -->
+               <img src="images/corona.png" height="400" width="500" alt="WHAT ARE THE SYMPTOMS OF COVID19?">
+          </div> <!-- card 1 -->
+
+           <div class="column"> <!-- card 2 -->
+            <h2>WHAT ARE THE SYMPTOMS OF COVID19?</h2>
+              <p>COVID-19 affects different people in different ways. Most infected people will develop mild to moderate illness and recover without hospitalization. Most common symptoms are: fever, dry cough, tiredness. Less common symptoms include:aches and pains, sore throat, diarrhoea, conjunctivitis, headache, loss of taste or smell, a rash on skin, or discolouration of fingers or toes.</p>
+              <a href="news.html">LEARN MORE</a>
+           </div> <!-- card 2 -->
+
+
+      </div> <!-- row -->
+   </div> <!-- symptoms -->
+
+   <br>
+
+   <div id="myths"> <!-- myths -->
+      <h2 style="text-align: center;">MYTHBUSTERS</h2>
+      <div class="row"> <!-- row -->
+          <div class="card column"> <!-- card 1 -->
+            <img src="images/cases1.png" alt="Touching a communal bottle of alcohol-based sanitizer will not infect you">
+            <div class="card-body">
+               <h3>FACT: Touching a communal bottle of alcohol-based sanitizer will not infect you</h3>
+               <p>Once you've sanitized your hands, you have disinfected them from any germs that may have been on the bottle. If everyone uses sanitizer in a public place such as a supermarket entrance, the risk of germs on communal items will be lower and will help keep everyone safe.</p>
+            </div>
+          </div> <!-- card 1 -->
+
+           <div class="card column"> <!-- card 2 -->
+            <img src="images/cases2.png" alt="The amount of alcohol-based sanitizer you use matters">
+            <div class="card-body">
+              <h3>FACT: The amount of alcohol-based sanitizer you use matters</h3>
+              <p>Apply a palmful of alcohol-based sanitizer to cover all surfaces of your hands. Rub your hands together using the right technique until they are dry. The entire procedure should last 20-30 seconds.</p>
+            </div>
+           </div> <!-- card 2 -->
+
+           <div class="card column"> <!-- card 2 -->
+            <img src="images/cases1.png" alt="Clinical trials confirm that hydroxychloroquine does not prevent illness or death from COVID-19.">
+            <div class="card-body">
+              <h3>FACT: Clinical trials confirm that hydroxychloroquine does not prevent illness or death from COVID-19.</h3>
+              <p>Hydroxychloroquine or chloroquine, a common treatment for malaria and certain autoimmune diseases, has been studied as a preventative treatment for COVID-19. Evidence from these studies shows that hydroxychloroquine has little to no impact on illness, hospitalization, or death.</p>
+            </div>
+           </div> <!-- card 3 -->
+
+      </div> <!-- row -->
+   </div> <!-- myths -->
+
+   <br>
+
+   <footer>
+      <hr>
+      <p>Made with ❤️</p>
+   </footer>
+
+
+
+
+      <script>
+         function myFunction() {
+           var x = document.getElementById("myTopnav");
+           if (x.className === "topnav") {
+             x.className += " responsive";
+           } else {
+             x.className = "topnav";
+           }
+         }
+      </script>
+   </body>
+   
+</html>

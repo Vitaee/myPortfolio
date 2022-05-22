@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="utf-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <meta name="viewport" content="initial-scale=1, maximum-scale=1">
+      <!-- site metas -->
+      <!-- Primary Meta Tags -->
+      <title>About - Covid 19 Awareness Website</title>
+      <meta name="title" content="Covid 19 Awareness Website">
+      <meta name="description" content="This website was developed by Can İlgu as the final  project submission for ECC006 - Web Design and Programming">
+
+      <link rel="shortcut icon" type="image/gif" href="images/corona_icon.png">
+      <link rel="stylesheet" type="text/css" href="main.css">
+   </head>
+
+   <body>
+
+    <div class="topnav" id="myTopnav">
+        <a href="index.html" class="active"><img src="images/corona_icon.png" alt="logo" height="35"></a>
+        <a href="about.html">About</a>
+        <a href="action.html">Take Action</a>
+        <a href="news.html">News</a>
+        <a href="doctors.html">Doctors</a>
+        <a href="contact.html">Contact</a>
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+        </a>
+      </div>
+
+       <div id="about"> <!-- about -->
+      <div class="row card"> <!-- row -->
+          <div class="column"> <!-- card 1 -->
+               <h2>ABOUT CORONA VIRUS</h2>
+              <p>Coronavirus disease (COVID-19) is an infectious disease caused by a newly discovered coronavirus. Most people infected with the COVID-19 virus will experience mild to moderate respiratory illness and recover without requiring special treatment. Older people, and those with underlying medical problems like cardiovascular disease, diabetes, chronic respiratory disease, and cancer are more likely to develop serious illness.</p>
+              <a href="https://www.who.int/health-topics/coronavirus" target="_blank">VISIT WHO WEBSITE</a>
+          </div> <!-- card 1 -->
+
+           <div class="column"> <!-- card 2 -->
+            <img src="images/about.jpg" height="400" width="400" alt="ABOUT CORONA VIRUS">
+           </div> <!-- card 2 -->
+
+
+      </div> <!-- row -->
+   </div> <!-- about -->
+
+   <br>
+
+      <footer>
+         <p>Made with ❤️</p>
+      </footer>
+
+      <script>
+         function myFunction() {
+           var x = document.getElementById("myTopnav");
+           if (x.className === "topnav") {
+             x.className += " responsive";
+           } else {
+             x.className = "topnav";
+           }
+         }
+      </script>
+   </body>
+   
+</html>

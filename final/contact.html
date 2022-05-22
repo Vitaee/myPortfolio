@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="utf-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <meta name="viewport" content="initial-scale=1, maximum-scale=1">
+      <!-- site metas -->
+      <!-- Primary Meta Tags -->
+      <title>Contact - Covid 19 Awareness Website</title>
+      <meta name="title" content="Covid 19 Awareness Website">
+      <meta name="description" content="This website was developed by Can İlgu as the final  project submission for ECC006 - Web Design and Programming">
+
+
+      <link rel="shortcut icon" type="image/gif" href="images/corona_icon.png">
+      <link rel="stylesheet" type="text/css" href="main.css">
+   </head>
+
+   <body>
+
+    <div class="topnav" id="myTopnav">
+        <a href="index.html" class="active"><img src="images/corona_icon.png" alt="logo" height="35"></a>
+        <a href="about.html">About</a>
+        <a href="action.html">Take Action</a>
+        <a href="news.html">News</a>
+        <a href="doctors.html">Doctors</a>
+        <a href="contact.html">Contact</a>
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+        </a>
+      </div>
+
+       <div id="contact"> <!-- contact -->
+         <h2 style="text-align: center;">Contact Us</h2>
+      <div class="row card"> <!-- row -->
+          <div class="column"> <!-- card 1 -->
+            <form action="/action_page.php">
+             <label for="fname">First Name</label>
+             <input type="text" id="fname" name="firstname" placeholder="Your name..">
+
+             <label for="lname">Last Name</label>
+             <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+
+             <label for="country">Country</label>
+             <select id="country" name="country">
+               <option value="">Kıbrıs / Cyprus</option>
+               <option value="">Turkey</option>
+             </select>
+
+             <label for="subject">Subject</label>
+             <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+
+             <input type="submit" value="Submit">
+           </form>
+          </div> <!-- card 1 -->
+
+           <div class="column"> <!-- card 2 -->
+            <iframe src="https://www.google.com/maps/embed/v1/place?key=AIzaSyA0s1a7phLN0iaD6-UE7m4qP-z21pH0eSc&amp;q=Near+East+Hospital+Cyprus" width="600" height="540" frameborder="0" style="border:0; width: 100%;" allowfullscreen=""></iframe>
+           </div> <!-- card 2 -->
+
+
+      </div> <!-- row -->
+   </div> <!-- contact -->
+
+
+      <footer>
+         <p>Made with ❤️</p>
+      </footer>
+
+
+      <script>
+         function myFunction() {
+           var x = document.getElementById("myTopnav");
+           if (x.className === "topnav") {
+             x.className += " responsive";
+           } else {
+             x.className = "topnav";
+           }
+         }
+      </script>
+
+   </body>
+   
+</html>
