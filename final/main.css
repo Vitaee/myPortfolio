@@ -68,17 +68,17 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-  position: relative;
   height: 100vh;
 }
 
+
 .hero-text{
-   text-align: center;
+  text-align: center;
   position: absolute;
   top: 40%;
   left: 25%;
   transform: translate(-50%, -50%);
-  color: white;
+  color: rgb(0, 0, 0);
 }
 
 h1{
